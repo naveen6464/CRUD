@@ -5,8 +5,8 @@ const csvParser = require('csv-parser');
 // Configure AWS SDK with your credentials
 AWS.config.update({
   region: 'us-east-1',
-  accessKeyId: 'AKIAVIQHSAF7YMQ6HWVI',
-  secretAccessKey: 'xU+TGjT2Ci9go66kX03Ks0lkLcyg8+inLv/wHwhR',
+  accessKeyId: '',
+  secretAccessKey: 'hh',
 });
 console.log("ss");
 const dynamodb = new AWS.DynamoDB();
